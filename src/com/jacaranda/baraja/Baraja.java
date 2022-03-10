@@ -6,7 +6,7 @@ public abstract class Baraja implements Repartible{
 
 	protected int numCartas;
 	private int siguiente;
-	private Carta[] cartas;
+	protected Carta[] cartas;
 
 	public Baraja(int num) throws CartaException {
 		super();
